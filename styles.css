@@ -560,18 +560,21 @@ img {
   position: relative;
   cursor: pointer;
 }
-/*==================== MOBILE SOCIAL ICONS ====================*/
 @media screen and (max-width: 767px) {
   .home__social {
-    flex-direction: row;       /* horizontal layout */
-    justify-content: center;   /* center the icons */
-    gap: 1rem;                 /* spacing between icons */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
   }
 
   .home__social-icon {
-    margin-bottom: 0;          /* remove vertical spacing */
+    margin-bottom: 0;
+    font-size: 1.5rem;
   }
 }
+
 
 
 
