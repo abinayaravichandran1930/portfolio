@@ -551,3 +551,13 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   }
 }
+ 
+.nav__menu.show {
+  right: 0;
+}
+.nav__toggle {
+  z-index: 1001;
+  position: relative;
+  cursor: pointer;
+}
+
